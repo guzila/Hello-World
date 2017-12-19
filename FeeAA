@@ -1,0 +1,5 @@
+fee=input("饭费是多少:")
+tips=input("给多少小费:")
+num=input("几个人AA:")
+avg=(float(fee)+float(tips))/int(num)
+print("平均每人",avg,"元")

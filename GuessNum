@@ -1,0 +1,21 @@
+import random
+secert = random.randint(1,100)
+
+guess = 0
+tries = 0
+
+print("哈哈，我有个密码让你猜猜")
+print("是1到99之间的1个数字，我让你猜6次！")
+
+while guess != secert and tries < 6:
+    guess = int(input("你猜猜是几啊:"))
+    if guess < secert:
+        print("秘密数字要比你猜的大哦～")
+    elif guess > secert:
+        print("秘密数字要比你猜的小哦～")
+    tries = tries+1
+if guess == secert:
+    print("啊，秘密被你知道了！")
+else:
+    print("好了，次数满了！")
+    print("我告诉你吧，秘密数字是",secert)
