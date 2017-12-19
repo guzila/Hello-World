@@ -1,3 +1,0 @@
-temp1 = input("输入华氏温度:")
-temp2 = 5/9*(int(temp1)-32)
-print(temp1,"转换到摄氏温度是:",int(temp2),"摄氏度")
